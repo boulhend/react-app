@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    --green:#01bf71;
+}
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  *{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    
+  }
+
+@keyframes type{
+  0% {
+    width: 0ch;
+  }
+  50%{
+    width: 31ch;
+  }
+  100%{
+    width: 31ch;
+  }
+}
